@@ -89,7 +89,7 @@ img {
 }
 
 dl {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "html-dd css-dd js-dd"
@@ -171,3 +171,11 @@ body.expand dd {
 body.expand img {
   width: 15em;
 }
+.Branco{
+  display:flex;
+  flex-direction: row;
+  list-style-type: disc;
+  flex-wrap: wrap;
+}
+
+li{padding :0 5px}
